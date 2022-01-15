@@ -46,33 +46,6 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
-/* .search-input .match-list {
-  padding: 0;
-  opacity: 0;
-  pointer-events: none;
-  max-height: 280px;
-  overflow-y: auto;
-}
-.search-input.active .match-list {
-  padding: 10px 8px;
-  opacity: 1;
-  pointer-events: auto;
-}
-.match-list li {
-  list-style: none;
-  padding: 8px 12px;
-  display: none;
-  width: 100%;
-  cursor: default;
-  border-radius: 3px;
-}
-.search-input.active .match-list li {
-  display: block;
-}
-.match-list li:hover {
-  background: #efefef;
-} */
-
 .card-main {
   padding: 20px 0px;
   border-radius: 24px;
