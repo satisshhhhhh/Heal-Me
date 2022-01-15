@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+body {
+  /* background: #644bff; */
+  padding: 0 20px;
+}
+::selection {
+  color: #fff;
+}
+.wrapper {
+  width: auto;
+  margin: 150px;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    margin: 100px auto;
+  }
+}
+.wrapper h3 {
+  margin: 10px 0px;
+}
+.wrapper .search-input {
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+.search-input input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border-style: solid;
+  border-width: 1.7px;
+  border-color: rgb(24, 213, 219);
+  border-radius: 10px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.search-input.active input {
+  border-radius: 5px 5px 0 0;
+}
+
+/* .search-input .match-list {
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.search-input.active .match-list {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.match-list li {
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+.search-input.active .match-list li {
+  display: block;
+}
+.match-list li:hover {
+  background: #efefef;
+} */
+
+.card-main {
+  padding: 20px 0px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.card-main .img-otr {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.card-main .patient-content span {
+  font-weight: 100;
+  color: rgb(77, 77, 77);
+  display: flex;
+  flex-direction: row;
+}
+
+.card-main .patient-content .patient-details .normal {
+  font-weight: normal;
+}
+
+.card-main .content-right {
+  margin-left: auto;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.card-main .content-right p {
+  color: green;
+}
